@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Learn - ECG Signal</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/icono.ico" rel="icon">
+
+     <!-- Vendor CSS Files -->
+    <link href="assets/vendorLearn/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow sticky-top p-0" style="height: 4em">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary"><i class="fa fa-heartbeat" aria-hidden="true"></i> ECG-SIGNAL</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0 " style="margin-right: 4em;">
+                <a href="index.html" class="nav-item nav-link ">Home</a>
+                <a href="learn.html" class="nav-item nav-link active">Learn</a>
+                <a href="game.html" class="nav-item nav-link">Game</a>
+                <a href="#team" class="nav-item nav-link">About</a>
+            </div>
+        </div>
+    </nav>
+    
+   
+    
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-dark py-5 mb-5 " style="height: 10em;">
+        <div class="container py-5">
+            <div class="row justify-content-center" style="margin-top: -5em;">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown">Learn</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Learn</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <a href="SinusRhythm.html">
+                        <div class="service-item text-center pt-3" style="border: 2px solid rgba(106, 104, 104, 0.311);">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-heartbeat text-primary mb-4"></i>
+                                
+                                <h5 class="mb-3">Sinus Rhythm</h5>
+                                <p>Sinus rhythm refers to the normal electrical activity of the heart.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <a href="SinusBradi.html">
+                        <div class="service-item text-center pt-3" style="border: 2px solid rgba(106, 104, 104, 0.311);">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-heartbeat text-primary mb-4"></i>
+                                <h5 class="mb-3">Sinus Bradycardia</h5>
+                                <p>Sinus bradycardia is a cardiac arrhythmia characterized by a slow heart rate.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <a href="SinusTachy.html">
+                        <div class="service-item text-center pt-3" style="border: 2px solid rgba(106, 104, 104, 0.311);">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-heartbeat text-primary mb-4"></i>
+                                <h5 class="mb-3">Sinus Tachycardia</h5>
+                                <p>It is a type of cardiac arrhythmia characterized by an abnormally fast heart rate.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <a href="SinusArrythmia.html">
+                        <div class="service-item text-center pt-3" style="border: 2px solid rgba(106, 104, 104, 0.311);">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-heartbeat text-primary mb-4"></i>
+                                <h5 class="mb-3">Sinus arrhythmia</h5>
+                                <p>
+                                    It is an irregular heart rhythm that originates from the sinoatrial (SA) node, the heart's natural pacemaker.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <a href="AtrialFibri.html">
+                        <div class="service-item text-center pt-3" style="border: 2px solid rgba(106, 104, 104, 0.311);">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-heartbeat text-primary mb-4"></i>
+                                <h5 class="mb-3">Atrial Fibrillation</h5>
+                                <p>It is an irregular heart rhythm that originates from the sinoatrial (SA) node, the heart's natural pacemaker.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <a href="2AVBtype1.html">
+                    <div class="service-item text-center pt-3" style="border: 2px solid rgba(106, 104, 104, 0.311);">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-heartbeat text-primary mb-4"></i>
+                            <h5 class="mb-3">2° AVB Type I</h5>
+                            <p>It is a cardiac conduction disorder characterized by a progressive delay in the conduction.</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <a href="2AVBtype2.html">
+                    <div class="service-item text-center pt-3" style="border: 2px solid rgba(106, 104, 104, 0.311);">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-heartbeat text-primary mb-4"></i>
+                            <h5 class="mb-3">2° AVB Type II</h5>
+                            <p>It is a cardiac conduction disorder characterized by a consistent block of electrical impulses from the atria to the ventricles.</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <a href="3AVBlock.html">
+                    <div class="service-item text-center pt-3" style="border: 2px solid rgba(106, 104, 104, 0.311);">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-heartbeat text-primary mb-4"></i>
+                            <h5 class="mb-3">3° AV Block</h5>
+                            <p>Third-degree AV block indicates a complete loss of communication between the atria and the ventricle.</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <a href="PacedAtrial.html">
+                    <div class="service-item text-center pt-3" style="border: 2px solid rgba(106, 104, 104, 0.311);">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-heartbeat text-primary mb-4"></i>
+                            <h5 class="mb-3">Paced Atrial</h5>
+                            <p>It is an artificial cardiac rhythm generated by a pacemaker, typically due to the absence of the heart's intrinsic atrial electrical activity.</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <a href="NRSwithAVB.html">
+                    <div class="service-item text-center pt-3" style="border: 2px solid rgba(106, 104, 104, 0.311);">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-heartbeat text-primary mb-4"></i>
+                            <h5 class="mb-3">NSR with 1° AVB</h5>
+                            <p>There is a delayed conduction of electrical impulses from the atria to the ventricles.</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <a href="AtrialFlutter.html">
+                    <div class="service-item text-center pt-3" style="border: 2px solid rgba(106, 104, 104, 0.311);">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-heartbeat text-primary mb-4"></i>
+                            <h5 class="mb-3">Atrial Flutter</h5>
+                            <p>It is a cardiac conduction disorder characterized by impaired or completely blocked electrical impulses.</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <a href="JunctionalR.html">
+                    <div class="service-item text-center pt-3" style="border: 2px solid rgba(106, 104, 104, 0.311);">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-heartbeat text-primary mb-4"></i>
+                            <h5 class="mb-3">Junctional Rhythm</h5>
+                            <p>It is considered an escape rhythm when the SA node fails to generate impulses or when the impulses are blocked.</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+
+    
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <a href="AcceJunctional.html">
+                    <div class="service-item text-center pt-3" style="border: 2px solid rgba(106, 104, 104, 0.311);">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-heartbeat text-primary mb-4"></i>
+                            <h5 class="mb-3">Accel Junctional</h5>
+                            <p>This accelerated rhythm may occur as a compensatory response to a slower or blocked sinus rhythm.</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <a href="JunctionalTachy.html">
+                    <div class="service-item text-center pt-3" style="border: 2px solid rgba(106, 104, 104, 0.311);">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-heartbeat text-primary mb-4"></i>
+                            <h5 class="mb-3">Junctional Tachy</h5>
+                            <p>This tachycardic rhythm may occur due to enhanced automaticity in the AV junction or as a response to certain triggers.</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <a href="WanderingPacemaker.html">
+                    <div class="service-item text-center pt-3" style="border: 2px solid rgba(106, 104, 104, 0.311);">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-heartbeat text-primary mb-4"></i>
+                            <h5 class="mb-3">Wandering pacemaker</h5>
+                            <p>It is a cardiac rhythm where the pacemaker activity shifts between the sinoatrial (SA) node and other locations within the atria.</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <a href="Idioventricular.html">
+                    <div class="service-item text-center pt-3" style="border: 2px solid rgba(106, 104, 104, 0.311);">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-heartbeat text-primary mb-4"></i>
+                            <h5 class="mb-3">Idioventricular Rhyhm</h5>
+                            <p>It is is a cardiac rhythm where the electrical impulses originate within the ventricles, typically at a rate slower than the normal sinus rhythm.</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    
+    
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <a href="AcceleratedIVR.html">
+                    <div class="service-item text-center pt-3" style="border: 2px solid rgba(106, 104, 104, 0.311);">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-heartbeat text-primary mb-4"></i>
+                            <h5 class="mb-3">Accelerated IVR</h5>
+                            <p>It is a cardiac rhythm where the electrical impulses originate within the ventricles at a rate faster than the typical idioventricular rhythm.</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <a href="VentricularTachy.html">
+                    <div class="service-item text-center pt-3" style="border: 2px solid rgba(106, 104, 104, 0.311);">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-heartbeat text-primary mb-4"></i>
+                            <h5 class="mb-3">Ventricular tachycardia</h5>
+                            <p>It is a serious cardiac arrhythmia characterized by a rapid, regular rhythm originating in the ventricles.</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <a href="VentricularFibrillation.html">
+                    <div class="service-item text-center pt-3" style="border: 2px solid rgba(106, 104, 104, 0.311);">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-heartbeat text-primary mb-4"></i>
+                            <h5 class="mb-3">Ventricular Fibrillation</h5>
+                            <p>It is a life-threatening cardiac arrhythmia characterized by chaotic, rapid, and uncoordinated contractions of the ventricles.</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <a href="PacedVentricular.html">
+                    <div class="service-item text-center pt-3" style="border: 2px solid rgba(106, 104, 104, 0.311);">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-heartbeat text-primary mb-4"></i>
+                            <h5 class="mb-3">Paced ventricular</h5>
+                            <p>It is a cardiac rhythm where the electrical impulses to initiate ventricular contractions are delivered artificially through an implanted pacemaker.</p>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+
+
+    <!-- Service End -->
+
+
+   
+        
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-3 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
